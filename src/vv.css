@@ -1,0 +1,121 @@
+body {
+    background-color: aliceblue;
+} 
+
+.app {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.home {
+  padding: 20px;
+}
+.task-form {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.task-input {
+    width: 300px;
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #2215e3;
+    border-radius: 4px;
+}
+.task-button {
+    padding: 10px 20px; 
+    border: none;
+    background-color: green;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.task-button:hover {
+    background-color: #788821;
+}
+.task-sections {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+.task-section {
+
+    border: 1px solid #5719dd;
+    border-radius: 4px;
+    width: 30%;
+    padding: 10px;
+}
+.task-section h2 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+.moveto {
+    padding: 10px 10px; 
+    border: 1px solid black;
+    background-color: rgb(98, 205, 224);
+    color: white;
+    border-radius: 2px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    margin-right: 20px;
+
+}
+.movetodo {
+    padding: 10px 10px; 
+    border: 1px solid black;
+    background-color: rgb(181, 162, 37);
+    color: white;
+    border-radius: 2px;
+    cursor: pointer;
+    margin-right: 5px;
+}
+.moveon {
+    padding: 10px 10px; 
+    border: 1px solid black;
+    background-color: rgb(98, 205, 224);
+    color: white;
+    border-radius: 2px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    margin-right: 20px;
+
+}
+.moveongoing {
+
+    padding: 10px 10px; 
+    border: 1px solid black;
+    background-color: rgb(181, 162, 37);
+    color: white;
+    border-radius: 2px;
+    cursor: pointer;
+    margin-right: 5px;
+}
+.movec {
+    padding: 10px 10px; 
+    border: 1px solid black;
+    background-color: rgb(98, 205, 224);
+    color: white;
+    border-radius: 2px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+.movecomp {
+    padding: 10px 10px; 
+    border: 1px solid black;
+    background-color: rgb(181, 162, 37);
+    color: white;
+    border-radius: 2px;
+    cursor: pointer;
+    margin-right: 5px;
+}
+.clearbutton {
+    padding: 10px 20px; 
+    border: none;
+    background-color: green;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.clearbutton:hover {
+    background-color: yellow;
+}
