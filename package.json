@@ -21,7 +21,7 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
-  "homepage": "https://KatkamDheeraj.github.io/react-dep",
+  "homepage": "https://KatkamDheeraj.github.io/deploy",
   "eslintConfig": {
     "extends": [
       "react-app",
